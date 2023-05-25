@@ -12,6 +12,7 @@ Poulailler Ophelia = new Poulailler("Ophelia", 6);
 //Affichage du poulailler
 Ophelia.afficherPoulailler();
 
+//Ajout de la poule Hamza dans le poulailler Ophelia et affichage du poulailler
 Ophelia.AjouterPoule(Hamza);
 Ophelia.afficherPoulailler();
 
@@ -24,3 +25,7 @@ Ophelia.afficherPoulailler();
 //Supression de la poule Shawn du poulailler d'Ophelia et affichage du poulailler
 Ophelia.SupprimerPoule(2);
 Ophelia.afficherPoulailler();
+
+
+//Moyenne de ponte du poulailler Ophelia
+Ophelia.MoyennePonte();
