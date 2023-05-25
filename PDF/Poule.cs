@@ -53,7 +53,7 @@ namespace PDF
         /// </summary>
         public void Afficher()
         {
-            Console.WriteLine($"{Nom} ({Race})");
+            Console.WriteLine($"{Nom} ({Race})\n");
         }
     }
 }

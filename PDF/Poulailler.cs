@@ -37,7 +37,7 @@ public class Poulailler
     {
         if (ListePoules.Count == capacite)
         {
-            Console.WriteLine($"Capacité max du poulailler atteinte");
+            Console.WriteLine($"Capacité max du poulailler atteinte\n");
         }
         else
         {
@@ -57,7 +57,7 @@ public class Poulailler
             Console.WriteLine($"{numPoules} : ");
             poule.Afficher();
         }
-        Console.WriteLine($"Il y a {numPoules} poule sur {capacite} dans le poulailler {nom}\n ");
+        Console.WriteLine($"Il y a {numPoules} poule sur {capacite} dans le poulailler {nom} ");
     }
     /// <summary>
     /// Supprimer une poule du poulailler à partir de son numéro 
@@ -66,7 +66,7 @@ public class Poulailler
     {
         if (numPoule > ListePoules.Count)
         {
-            Console.WriteLine($"Il n'y a pas de poule n° {numPoule} dans le poulailler");
+            Console.WriteLine($"Il n'y a pas de poule n° {numPoule} dans le poulailler\n");
         }
         else
         {
@@ -81,6 +81,7 @@ public class Poulailler
         {
             SommeIntensitePonte += poule.IntensitePonte;
         }
+        Console.WriteLine($"La moyenne d'intensité de ponte est de {Math.Round(SommeIntensitePonte/ListePoules.Count,1)}");
     }
 
 }
