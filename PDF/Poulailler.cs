@@ -48,7 +48,7 @@ public class Poulailler
     /// <summary>
     /// Affiche toutes les poules d'un poulailler et le nombre total de poule dans le poulailler
     /// </summary>
-    public void afficherPoulailler(string[] Poules)
+    public void afficherPoulailler()
     {
         int numPoules = 0;
         foreach (Poule poule in ListePoules)

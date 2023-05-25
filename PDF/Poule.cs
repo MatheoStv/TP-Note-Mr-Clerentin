@@ -21,10 +21,12 @@ namespace PDF
         /// </summary>
         /// <example>Sussex, Marans, Gatinaise, Gauloise</example>
         string Race;
+
         /// <summary>
         /// Nb moyen d'oeufs pondus par jour
         /// </summary>
-        double intensitePonte; { get => intensitePonte; }
+        private double intensitePonte;
+        public double IntensitePonte { get => intensitePonte; }
         /// <summary>
         /// Taille de la poule
         /// </summary>
